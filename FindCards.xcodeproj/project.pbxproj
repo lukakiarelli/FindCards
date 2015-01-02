@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D45CA3861A56C169002AE7D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45CA3851A56C169002AE7D2 /* AppDelegate.swift */; };
+		D45CA3891A56C169002AE7D2 /* FindCards.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D45CA3871A56C169002AE7D2 /* FindCards.xcdatamodeld */; };
+		D45CA38B1A56C169002AE7D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45CA38A1A56C169002AE7D2 /* ViewController.swift */; };
+		D45CA38E1A56C169002AE7D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D45CA38C1A56C169002AE7D2 /* Main.storyboard */; };
+		D45CA3901A56C169002AE7D2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D45CA38F1A56C169002AE7D2 /* Images.xcassets */; };
+		D45CA3931A56C169002AE7D2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D45CA3911A56C169002AE7D2 /* LaunchScreen.xib */; };
+		D45CA39F1A56C169002AE7D2 /* FindCardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45CA39E1A56C169002AE7D2 /* FindCardsTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D45CA3991A56C169002AE7D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D45CA3781A56C169002AE7D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D45CA37F1A56C169002AE7D2;
+			remoteInfo = FindCards;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D45CA3801A56C169002AE7D2 /* FindCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D45CA3841A56C169002AE7D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D45CA3851A56C169002AE7D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D45CA3881A56C169002AE7D2 /* FindCards.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FindCards.xcdatamodel; sourceTree = "<group>"; };
+		D45CA38A1A56C169002AE7D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D45CA38D1A56C169002AE7D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D45CA38F1A56C169002AE7D2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D45CA3921A56C169002AE7D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D45CA3981A56C169002AE7D2 /* FindCardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindCardsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D45CA39D1A56C169002AE7D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D45CA39E1A56C169002AE7D2 /* FindCardsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindCardsTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D45CA37D1A56C169002AE7D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D45CA3951A56C169002AE7D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D45CA3771A56C169002AE7D2 = {
+			isa = PBXGroup;
+			children = (
+				D45CA3821A56C169002AE7D2 /* FindCards */,
+				D45CA39B1A56C169002AE7D2 /* FindCardsTests */,
+				D45CA3811A56C169002AE7D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D45CA3811A56C169002AE7D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D45CA3801A56C169002AE7D2 /* FindCards.app */,
+				D45CA3981A56C169002AE7D2 /* FindCardsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D45CA3821A56C169002AE7D2 /* FindCards */ = {
+			isa = PBXGroup;
+			children = (
+				D45CA3851A56C169002AE7D2 /* AppDelegate.swift */,
+				D45CA38A1A56C169002AE7D2 /* ViewController.swift */,
+				D45CA38C1A56C169002AE7D2 /* Main.storyboard */,
+				D45CA38F1A56C169002AE7D2 /* Images.xcassets */,
+				D45CA3911A56C169002AE7D2 /* LaunchScreen.xib */,
+				D45CA3871A56C169002AE7D2 /* FindCards.xcdatamodeld */,
+				D45CA3831A56C169002AE7D2 /* Supporting Files */,
+			);
+			path = FindCards;
+			sourceTree = "<group>";
+		};
+		D45CA3831A56C169002AE7D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D45CA3841A56C169002AE7D2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D45CA39B1A56C169002AE7D2 /* FindCardsTests */ = {
+			isa = PBXGroup;
+			children = (
+				D45CA39E1A56C169002AE7D2 /* FindCardsTests.swift */,
+				D45CA39C1A56C169002AE7D2 /* Supporting Files */,
+			);
+			path = FindCardsTests;
+			sourceTree = "<group>";
+		};
+		D45CA39C1A56C169002AE7D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D45CA39D1A56C169002AE7D2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D45CA37F1A56C169002AE7D2 /* FindCards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D45CA3A21A56C169002AE7D2 /* Build configuration list for PBXNativeTarget "FindCards" */;
+			buildPhases = (
+				D45CA37C1A56C169002AE7D2 /* Sources */,
+				D45CA37D1A56C169002AE7D2 /* Frameworks */,
+				D45CA37E1A56C169002AE7D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FindCards;
+			productName = FindCards;
+			productReference = D45CA3801A56C169002AE7D2 /* FindCards.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D45CA3971A56C169002AE7D2 /* FindCardsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D45CA3A51A56C169002AE7D2 /* Build configuration list for PBXNativeTarget "FindCardsTests" */;
+			buildPhases = (
+				D45CA3941A56C169002AE7D2 /* Sources */,
+				D45CA3951A56C169002AE7D2 /* Frameworks */,
+				D45CA3961A56C169002AE7D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D45CA39A1A56C169002AE7D2 /* PBXTargetDependency */,
+			);
+			name = FindCardsTests;
+			productName = FindCardsTests;
+			productReference = D45CA3981A56C169002AE7D2 /* FindCardsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D45CA3781A56C169002AE7D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = luca;
+				TargetAttributes = {
+					D45CA37F1A56C169002AE7D2 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					D45CA3971A56C169002AE7D2 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = D45CA37F1A56C169002AE7D2;
+					};
+				};
+			};
+			buildConfigurationList = D45CA37B1A56C169002AE7D2 /* Build configuration list for PBXProject "FindCards" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D45CA3771A56C169002AE7D2;
+			productRefGroup = D45CA3811A56C169002AE7D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D45CA37F1A56C169002AE7D2 /* FindCards */,
+				D45CA3971A56C169002AE7D2 /* FindCardsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D45CA37E1A56C169002AE7D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D45CA38E1A56C169002AE7D2 /* Main.storyboard in Resources */,
+				D45CA3931A56C169002AE7D2 /* LaunchScreen.xib in Resources */,
+				D45CA3901A56C169002AE7D2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D45CA3961A56C169002AE7D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D45CA37C1A56C169002AE7D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D45CA38B1A56C169002AE7D2 /* ViewController.swift in Sources */,
+				D45CA3891A56C169002AE7D2 /* FindCards.xcdatamodeld in Sources */,
+				D45CA3861A56C169002AE7D2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D45CA3941A56C169002AE7D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D45CA39F1A56C169002AE7D2 /* FindCardsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D45CA39A1A56C169002AE7D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D45CA37F1A56C169002AE7D2 /* FindCards */;
+			targetProxy = D45CA3991A56C169002AE7D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D45CA38C1A56C169002AE7D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D45CA38D1A56C169002AE7D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D45CA3911A56C169002AE7D2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D45CA3921A56C169002AE7D2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D45CA3A01A56C169002AE7D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D45CA3A11A56C169002AE7D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D45CA3A31A56C169002AE7D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FindCards/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D45CA3A41A56C169002AE7D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FindCards/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D45CA3A61A56C169002AE7D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FindCardsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindCards.app/FindCards";
+			};
+			name = Debug;
+		};
+		D45CA3A71A56C169002AE7D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FindCardsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindCards.app/FindCards";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D45CA37B1A56C169002AE7D2 /* Build configuration list for PBXProject "FindCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D45CA3A01A56C169002AE7D2 /* Debug */,
+				D45CA3A11A56C169002AE7D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D45CA3A21A56C169002AE7D2 /* Build configuration list for PBXNativeTarget "FindCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D45CA3A31A56C169002AE7D2 /* Debug */,
+				D45CA3A41A56C169002AE7D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D45CA3A51A56C169002AE7D2 /* Build configuration list for PBXNativeTarget "FindCardsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D45CA3A61A56C169002AE7D2 /* Debug */,
+				D45CA3A71A56C169002AE7D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D45CA3871A56C169002AE7D2 /* FindCards.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D45CA3881A56C169002AE7D2 /* FindCards.xcdatamodel */,
+			);
+			currentVersion = D45CA3881A56C169002AE7D2 /* FindCards.xcdatamodel */;
+			path = FindCards.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D45CA3781A56C169002AE7D2 /* Project object */;
+}
